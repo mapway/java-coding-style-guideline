@@ -1,14 +1,15 @@
-Java Coding Style Guideline
+Java 代码格式规范中文版
 ===========================
 
 **Version:** 2.0
 
-**Author:** Thibaud LEPRETRE
-
+**Author:** Thibaud LEPRETRE,张建设
 **Greatly inspired by (thanks guys):**
 
 * [Oracle Code convention for Java](http://www.oracle.com/technetwork/java/index-135089.html)
 * [Google Java style](https://google.github.io/styleguide/javaguide.html)
+* kakawait/java-coding-style-guideline
+
 
 **Table of Contents**
 
@@ -108,12 +109,11 @@ Java Coding Style Guideline
     - [7.3.1 Exception: self-explanatory methods](#731-exception-self-explanatory-methods)
     - [7.3.2 Exception: overrides](#732-exception-overrides)
 
-1 Introduction
+1 简介
 --------------
 
-### 1.1 Why have code conventions
-
-Code conventions are important to programmers for a number of reasons:
+### 1.1 为什么需要代码规范
+下面几点说明代码规范很重要:
 
 * 80% of the lifetime cost of a piece of software goes to maintenance.
 * Hardly any software is maintained for its whole life by the original author.
